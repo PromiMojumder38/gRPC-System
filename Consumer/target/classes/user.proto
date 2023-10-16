@@ -28,29 +28,25 @@ message RegisterReq {
   string password = 2;
   string name = 3;
   string email = 4;
-  string bio = 5;
 }
 
 // New message for getting the user's profile
 message ProfileReq {
   string username = 1;
   string email = 2;
-  string bio = 3;
-  string password = 4;
+  string password = 3;
 }
 
 // New message for returning the user's profile
 message ProfileRes {
   string username = 1;
   string email = 2;
-  string bio = 3;
-  string password = 4;
+  string password = 3;
 }
 
 // New message for updating the user's profile
 message UpdateProfileReq {
   string username = 1;
   string email = 2;
-  string bio = 3;
-  string password = 4;
+  string password = 3;
 }

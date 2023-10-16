@@ -68,6 +68,7 @@ public class Consumer {
                     System.out.print("Enter your new password: ");
                     String newPassword = scanner.nextLine();
 
+
                     User.UpdateProfileReq updateProfileRequest = User.UpdateProfileReq.newBuilder()
                             .setUsername(username)
                             .setEmail(newEmail)
